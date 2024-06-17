@@ -24,4 +24,8 @@ This project utilizes machine learning algorithms to recommend suitable crops ba
 [Crop_Recommendation.csv: Dataset used for training and testing.](https://www.kaggle.com/datasets/varshitanalluri/crop-recommendation-dataset/data)
 
 # Conclusion
-This project implements a crop recommendation system using machine learning algorithms like Linear Regression, Logistic Regression, Decision Tree Classifier, and XGBoost. It preprocesses data, trains models to predict suitable crops based on environmental factors, evaluates their accuracy, and visualizes results using Matplotlib and Seaborn.
+- XGBoost and Decision Tree Classifier are recommended as the best models for the crop recommendation system, both achieving high accuracies above 97%. XGBoost, in particular, excels due to its ability to handle complex datasets and optimize predictive performance.
+
+- Logistic Regression also performed well and is suitable for applications where binary classification of crops based on environmental data is required.
+
+- Linear Regression showed significantly lower accuracy and is not recommended for this task, as it struggled to capture the intricate relationships needed for accurate crop prediction.
